@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <form>
+            <div class="a">
+                <label for="#name">Nome</label>
+                <input id="name" type="text" placeholder="Digite seu nome aqui..." name="nome" required="true">
+
+                <label for="#email">Email</label>
+                <input id="email" type="email" placeholder="Digite seu nome aqui..." name="email" required="true">
+            </div>
+
+            <div class="a">
+                <label for="#description">Descrição</label>
+                <textarea name="description" id="description" placeholder="Fale mais sobre você aqui..."></textarea>
+            </div>
+
+            <div class="a">
+                <label for="#module">Módulo</label>
+                <select name="module" id="module" >
+                    <option value="">Escolher módulo</option>
+                    <option value="module1">Módulo 1</option>
+                    <option value="module2">Módulo 2</option>
+                    <option value="module3">Módulo 3</option>
+                    <option value="module4">Módulo 4</option>
+                    <option value="module5">Módulo 5</option>
+                    <option value="module6">Módulo 6</option>
+                </select>
+            </div>
+
+            <div class="a">
+                <label for="#password">Senha</label>
+                <input type="password" name="password" id="password" placeholder="Digite sua senha aqui..." required="true">
+                <label for="#passwordConfirm">Confirmar Senha</label>
+                <input type="passwordConfirm" name="passwordConfirm" id="passwordConfirm" placeholder="Digite sua senha novamente aqui..." required="true">
+            </div>
+
+            <div class="b">
+                <label id="block-label" for="#notification">Deseja receber novidades em seu e-mail?</label>
+                <label for="#notificationTrue">Sim</label>
+                <input type="radio" name="notification" id="notificationTrue">
+                <label for="#notificationNote">Não</label>
+                <input type="radio" name="notification" id="notificationFalse">
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
