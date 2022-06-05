@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+}
+
+span{
+    color: #3662FF;
+}
+
+a{
+    color: #3662FF;
+}
+
+li{
+    text-decoration:underline;
+}
+
+#box{
+    background-color: #3662FF;
+    color: white;
+    display: inline-block;
+}
