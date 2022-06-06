@@ -1,0 +1,49 @@
+div{
+    background-color: whitesmoke;
+    width: 260px;
+    margin: auto;
+    border-radius: 2%;
+    border: 2px solid  #E9ECEF;
+
+    padding: 40px;
+}
+
+h2{
+    text-align: center;
+
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+input{
+    display: block;
+    background-color: #E9ECEF;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 250px;
+    margin-bottom: 20px;
+    
+}
+
+input:hover{
+    background-color: #DEE2E6;
+}
+
+
+button{
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 254px;
+    background-color: #1971C2;
+    color: white;
+    margin-bottom: 20px;
+}
+
+button:hover{
+    background-color:#1864AB;
+}
