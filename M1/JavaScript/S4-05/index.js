@@ -67,3 +67,18 @@ function convertToKelvin(currentType, currentValue){
     }
 }
 
+
+
+
+
+
+
+function valor(valor){
+    console.log(` ${typeof(x)}`)
+}
+
+
+
+valor(2)
+
+
