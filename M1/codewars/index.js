@@ -26,3 +26,22 @@ function friend(friends){
    
 }
 
+function descendingOrder(n){
+    let dadoArray = []
+    let dadoNum = ""
+    let z = n.toString()
+    
+    for(let i = 0;i <= z.length -1;i++){
+        dadoArray.push(z[i])
+    }
+    dadoArray.sort((a,b)=> b-a)
+
+    for(let i = 0;i <= dadoArray.length -1;i++){
+        dadoNum += parseInt(dadoArray[i])
+    }
+    
+    return parseInt(dadoNum)
+}
+
+console.log(descendingOrder(432390))
+
