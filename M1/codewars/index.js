@@ -21,4 +21,8 @@ function divisors(integer) {
     
 };
 
-console.log(divisors(12))
+function friend(friends){
+   let dado = []
+   
+}
+
