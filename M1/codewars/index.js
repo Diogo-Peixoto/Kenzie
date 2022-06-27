@@ -43,7 +43,6 @@ function descendingOrder(n){
     return parseInt(dadoNum)
 }
 
-
 function calculateAge(s1, s2) {
     if(s1 < s2){
         if(s2-s1 > 1){
@@ -63,3 +62,11 @@ function calculateAge(s1, s2) {
         return "You were born this very year!"
     }
 }
+
+function monkeyCount(n) {
+    let dado =[]
+    for(let i = 1; i <= n;i++){
+      dado.push(i)
+    }
+    return dado
+  }
