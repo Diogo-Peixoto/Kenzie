@@ -72,14 +72,24 @@ function monkeyCount(n) {
 }
 
 
-    const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
         
-        if(mpg * fuelLeft >= distanceToPump){
-          return true
-        }else{
-          return false
-        }
-    };
+       if(mpg * fuelLeft >= distanceToPump){
+        return true
+    }else{
+        return false
+    }
+};
 
-
+function updateLight(current) {
+  
+    if(current == "green"){
+        return "yellow"
+    }else if(current == "yellow"){
+        return "red"
+    }else if(current == "red"){
+        return "green"
+    }
+  
+}
 
