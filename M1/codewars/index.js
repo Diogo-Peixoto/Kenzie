@@ -43,5 +43,23 @@ function descendingOrder(n){
     return parseInt(dadoNum)
 }
 
-console.log(descendingOrder(432390))
 
+function calculateAge(s1, s2) {
+    if(s1 < s2){
+        if(s2-s1 > 1){
+            return `You are ${s2-s1} years old.`
+        }else{
+            return "You are 1 year old."
+        }
+
+    }else if(s1 > s2){
+        if(s2-s1 > 1){
+            return `You will be born in ${s1-s2} years.`
+        }else{
+            return "You will be born in 1 year."
+        }
+
+    }else{
+        return "You were born this very year!"
+    }
+}
