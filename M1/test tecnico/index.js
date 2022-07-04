@@ -1,10 +1,16 @@
-function sequencePosNum(num){
-    let array = []
-    
-    for(let i = 0; i <= num;i++){
-        if(i % 2 == 0){
-            array.push(i)
+function decode(array){
+
+    let  dado = []
+
+    for(let i = 0 ; i < array.length;i++){
+        if(array[i] % 2 != 0){
+
+           dado.push(i)
+        }else{
+            dado.push(array[i])
         }
     }
-   return array
+    
+    return dado
 }
+
