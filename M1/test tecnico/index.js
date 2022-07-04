@@ -11,6 +11,6 @@ function decode(array){
         }
     }
     
-    return dado
+    return array
 }
 
