@@ -116,4 +116,23 @@ function Hero(name) {
     }
     
 }
-console.log(Hero("diogo"))
+
+function arrayDiff(a, b) {
+    let dado = []
+   
+    
+    if(b.length == 0){
+        return a
+    }else{
+        for(let i = 0;i < a.length;i++){
+            for(let key of b){
+                
+                if(a[i] != key){
+                    dado.push(a[i])
+                }
+           }
+        }
+    }
+    return dado
+}
+console.log(arrayDiff([1,2,3], [1,2]))
